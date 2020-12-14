@@ -19,40 +19,26 @@ function SearchWrite(Search, Write, Type) gg.clearResults() gg.setVisible(false)
 function HOME()
 SN = gg.choice({
  "🛡️⁩  تفعيل الحماية لجميع النسخ  🛡️⁩",	
-    "🧡 التفعيلات السريعه 🧡",    
-   "👍التفعيلات باللوبي 👍",
-   "🚨 تفعيلات الساحة 🚨",      
-"💦 قفل المشاهدة مع مسح البلاغات 💦",    
-    "🔄ريسيت سريع 🔄",    
-"🚀 『 طيران اللاعب طول القيم 』🚀" .. antifall,
-    "📷  قائمة السكوبات 📷",    
-       "🚔  قفزة الجيب 🚔",    
-          "🚗 قفزة الداسيا 🚗",    
-             "🏎️  قفزة البقي 🏎️",    
+    "🧡 التفعيلات السريعه  🧡",     
+    "🧡 تفعيلات الساحة  🧡",     
+"🚀 『 طيران اللاعب طول القيم 』🚀" .. antifall,  
     "🌈 الوال هاك 🌈",                        
     "✈ خروج ✈"
 }, nil, "      ")
 if SN == nil then else
 if SN ==  1 then nbypas() end
 if SN ==  2 then safe() end 
-if SN ==  3 then lo() end 
-if SN ==  4 then extra() end
-if SN ==  5 then POTTT() end
-if SN ==  6 then DNF() end
-if SN ==  7 then fbr() end
-if SN ==  8 then SCOP1() end
-if SN ==  9 then JEEPJUMP() end
-if SN ==  10 then DACIAJUMP() end
-if SN ==  11 then BUGGYJUMP() end
-if SN ==  12 then BDY() end
-if SN ==  13 then EXIT() end
+if SN ==  3 then extra() end 
+if SN ==  4 then fbr() end
+if SN ==  5 then BDY() end
+if SN ==  6 then EXIT() end
 end
 PUBGMH = -1
 end
 
 function safe()
 SL = gg.multiChoice({
-"ثبات 100%    ️"  .. lnr1,	 
+"ثبات 100%    ️".. lnr1,	 
 "أيمبوت  ☠ " .. laim1,
 "منضور ايباد  " ..lipv1,
 "ازالة عشب  " ..lng1,
@@ -62,8 +48,6 @@ SL = gg.multiChoice({
 "جسم أسود  " ..lbb1,
 "سماء سوداء   " ..lbs1,
 "الوضع الليلي  "  ..lnm1,
-"طلق سريع  " ..hit1,
-"مجك بولت  " ..lmg1,
 "خروج"
 }, nil, " مش لكل الأجهزة ")
 if SL == nil then else
@@ -77,145 +61,40 @@ if SL[7] == true then lsc() end
 if SL[8] == true then lbb() end
 if SL[9] == true then lbs() end
 if SL[10] == true then lnm() end
-if SL[11] == true then hit() end
-if SL[12] == true then lmg() end
-if SL[13] == true then HOME() end
+if SL[11] == true then HOME() end
 end 
-PUBGMH = -1 end
-function tt()
-gg.clearResults()   
-gg.setRanges(131072)   
-gg.searchNumber("-88.66608428955;26:512", 16, false, 536870912, 0, -1)    
-gg.searchNumber("26", 16, false, 536870912, 0, -1)    
-gg.getResults(2)    
-gg.editAll("-460", 16)   
-gg.clearResults()    
-gg.searchNumber("-88.73961639404;28:512", 16, false, 536870912, 0, -1)    
-gg.searchNumber("28", 16, false, 536870912, 0, -1)    
-gg.getResults(2)    
-gg.editAll("-560", 16)    
-gg.clearResults()   
- gg.setRanges(32) 
- gg.searchNumber("9.201618;30.5;25", 16, false, 536870912, 0, -1)   
- gg.searchNumber("30.5;25", 16, false, 536870912, 0, -1)    
-gg.getResults(10)   
- gg.editAll("200", 16)    
-gg.clearResults()  
- gg.setRanges(16)  
-  gg.searchNumber("2048D;1F", 16, false, 536870912, 0, -1)   
- gg.searchNumber("1", 16, false, 536870912, 0, -1)    
-gg.getResults(100)   
- gg.editAll("0.07", 16)    
-gg.clearResults()    
-gg.setRanges(16384) 
-  gg.searchNumber("9.1022205e-38;0.0001;9.1025635e-38::", 16, false, 536870912, 0, -1)    
-gg.searchNumber("0.0001", 16, false, 536870912, 0, -1)   
- gg.getResults(100)    
-gg.editAll("125", 16)   
- gg.clearResults()   
- gg.setRanges(131072)  
- gg.searchNumber("-7.1611644e24;0.0001;1.1297201e-37::", 16, false, 536870912, 0, -1)  
-  gg.searchNumber("0.0001", 16, false, 536870912, 0, -1) 
-  gg.getResults(500) 
- gg.editAll("-125", 16) 
-  gg.clearResults() 
-gg.setRanges(gg.REGION_ANONYMOUS)
-gg.searchNumber("9.20161819458.43;25;30.5", gg.TYPE_FLOAT, false, gg.SIGN_EQUAL, 0, -1)    
-gg.searchNumber("25;30.5", gg.TYPE_FLOAT, false, gg.SIGN_EQUAL, 0, -1)    
-gg.getResults(100)  
-gg.editAll("500", gg.TYPE_FLOAT)  
-gg.clearResults()
-gg.setRanges(gg.REGION_ANONYMOUS)
-gg.searchNumber("9.20161819458;23;25;30.5", gg.TYPE_FLOAT, false, gg.SIGN_EQUAL, 0, -1)
-gg.searchNumber("25;30.5", gg.TYPE_FLOAT, false, gg.SIGN_EQUAL, 0, -1)
-gg.getResults(10)
-gg.editAll("245", gg.TYPE_FLOAT)
-gg.setRanges(gg.REGION_ANONYMOUS)
-gg.searchNumber("25;30.5", gg.TYPE_FLOAT, false, gg.SIGN_EQUAL, 0, -1)
-gg.getResults(100)
-gg.editAll("300;305", gg.TYPE_FLOAT)
-gg.clearResults()
-gg.setRanges(gg.REGION_C_DATA | gg.REGION_CODE_APP)
-gg.searchNumber("0.10000000149;64.50088500977", gg.TYPE_FLOAT, false, gg.SIGN_EQUAL, 0, -1)
-gg.refineNumber("0.10000000149", gg.TYPE_FLOAT, false, gg.SIGN_EQUAL, 0, -1)
-gg.getResults(50)
-gg.editAll("8", gg.TYPE_FLOAT)
-gg.setRanges(gg.REGION_BAD)
-gg.searchNumber("-88.66608428955;26:512", gg.TYPE_FLOAT, false, gg.SIGN_EQUAL, 0, -1)
-gg.searchNumber("26", gg.TYPE_FLOAT, false, gg.SIGN_EQUAL, 0, -1)
-gg.getResults(2)
-gg.editAll("-460", gg.TYPE_FLOAT)
-gg.clearResults()
-gg.setVisible(false)
-gg.searchNumber("-88.73961639404;28:512", gg.TYPE_FLOAT, false, gg.SIGN_EQUAL, 0, -1)
-gg.searchNumber("28", gg.TYPE_FLOAT, false, gg.SIGN_EQUAL, 0, -1)
-gg.getResults(2)
-gg.editAll("-560", gg.TYPE_FLOAT)
-gg.setRanges(gg.REGION_C_DATA | gg.REGION_CODE_APP)
-gg.searchNumber("-298284466;-1.304566e23F", gg.TYPE_DWORD, false, gg.SIGN_EQUAL, 0, -1)
-gg.searchNumber("-298284466", gg.TYPE_DWORD, false, gg.SIGN_EQUAL, 0, -1)
-gg.getResults(99)
-gg.editAll("0", gg.TYPE_DWORD)
-gg.clearResults()
-gg.setVisible(false)
-gg.setRanges(gg.REGION_CODE_APP)
-gg.clearResults()
-gg.setVisible(false)
-gg.searchNumber(-1.4278110478704994E28, gg.TYPE_FLOAT)
-gg.getResultsCount()
-gg.getResults(0)
-gg.setRanges(gg.REGION_CODE_APP)
-gg.searchNumber(-3.254379949369797E30, gg.TYPE_FLOAT)
- gg.getResultsCount() 
-gg.getResults(9)
- gg.clearResults() 
-gg.setVisible(false) 
-gg.getValues({ [1] = { ['address'] = 0xcc5590d8,['flags'] = 16, }, 
-[2] = { ['address'] = 0xcc8e6cbc,['flags'] = 16, }, 
-[2] = { ['address'] = 0xce6b7258,['flags'] = 16, },
- [2] = { ['address'] = 0xce911214,['flags'] = 16, }, 
-[2] = { ['address'] = 0xceb49fb8,['flags'] = 16, },
- [2] = { ['address'] = 0xceb714a4,['flags'] = 16, }, 
-[2] = { ['address'] = 0xceb8d74c,['flags'] = 16, },
- [2] = { ['address'] = 0xcfaf1064,['flags'] = 16, }, 
-[2] = { ['address'] = 0xcfaf18b4,['flags'] = 16, }, }) 
-gg.toast("تم") 
-gg.clearResults()
+PUBGMH = 1 
 end
 
-lmg1 = off
-function lmg()
-if lmg1 == off then
-so=gg.getRangesList('libUE4.so')[1].start
-py=0x3B65608
-setvalue(so+py, gg.TYPE_FLOAT, 75.0)
-gg.toast("ماجيك ")
-lmg1 = on
+lnr1 = off
+function lnr()
+if lnr1 == off then
+so = gg.getRangesList("libUE4.so")[1].start
+py = 0x130CBF0
+setvalue(so +  py, gg.TYPE_FLOAT, 0)
+so = gg.getRangesList("libUE4.so")[1].start
+py = 0x367EC84
+setvalue(so +  py, gg.TYPE_FLOAT, 0)
+so = gg.getRangesList("libUE4.so")[1].start
+py = 0x372D818
+setvalue(so +  py, gg.TYPE_FLOAT, 0)
+gg.toast(' ثبات ')
+lnr1 = on
 else
-so=gg.getRangesList('libUE4.so')[1].start
-py=0x3B65608
-setvalue(so+py, gg.TYPE_FLOAT, 0.10000000149)
-gg.toast("ماجيك أيقاف")
-lmg1 = off
+so = gg.getRangesList("libUE4.so")[1].start
+py = 0x130CBF0
+setvalue(so +  py, gg.TYPE_FLOAT, -2.786982e28)
+so = gg.getRangesList("libUE4.so")[1].start
+py = 0x367EC84
+setvalue(so +  py, gg.TYPE_FLOAT, -1.1144502e28)
+so = gg.getRangesList("libUE4.so")[1].start
+py = 0x372D818
+setvalue(so +  py, gg.TYPE_FLOAT, -1.1144502e28)
+gg.toast(' ثبات ايقاف ')
+lnr1 = off
 end
 end
 
-hit1 = off
-function hit()
-if hit1 == off then
-so=gg.getRangesList('libUE4.so')[1].start
-py=0x37C1BA4
-setvalue(so+py, gg.TYPE_FLOAT, 0)
-gg.toast("طلق سريع ")
-hit1 = on
-else
-so=gg.getRangesList('libUE4.so')[1].start
-py=0x3B64788
-setvalue(so+py, gg.TYPE_FLOAT, -1.42781105e28)
-gg.toast("طلق سريع أيقاف")
-hit1 = off
-end
-end
 lnm1 = off
 function lnm()
 if lnm1 == off then
@@ -262,35 +141,6 @@ py = 0x2CBD788
 setvalue(so +  py, gg.TYPE_FLOAT, 0.0001)
 gg.toast(' جسم اسود أيقاف')
 lbb1 = off
-end
-end
-
-lnr1 = off
-function lnr()
-if lnr1 == off then
-so = gg.getRangesList("libUE4.so")[1].start
-py = 0x130CBF0
-setvalue(so +  py, gg.TYPE_FLOAT, 0)
-so = gg.getRangesList("libUE4.so")[1].start
-py = 0x367EC84
-setvalue(so +  py, gg.TYPE_FLOAT, 0)
-so = gg.getRangesList("libUE4.so")[1].start
-py = 0x372D818
-setvalue(so +  py, gg.TYPE_FLOAT, 0)
-gg.toast(' ثبات ')
-lnr1 = on
-else
-so = gg.getRangesList("libUE4.so")[1].start
-py = 0x130CBF0
-setvalue(so +  py, gg.TYPE_FLOAT, -2.786982e28)
-so = gg.getRangesList("libUE4.so")[1].start
-py = 0x367EC84
-setvalue(so +  py, gg.TYPE_FLOAT, -1.1144502e28)
-so = gg.getRangesList("libUE4.so")[1].start
-py = 0x372D818
-setvalue(so +  py, gg.TYPE_FLOAT, -1.1144502e28)
-gg.toast(' ثبات ايقاف ')
-lnr1 = off
 end
 end
 
@@ -398,6 +248,85 @@ lsc1 = off
 end
 end
 
+function extra()
+SNN = gg.multiChoice({
+" أنتينا لكل اللاعبين   "..antt,	
+  "هيدشوت + مجك بولت    ☠ ",
+  "تشغيل أيمبوت أبو جهل    ☠",       
+   "تشغيل دمج عالي    ☠",              	    	       
+   "تشغيل منضور الأيباد  ",
+  "أزالة الضباب",	  
+    "تشغيل القفز التلقائي ",	  	
+    "قفزة للأمام خطيرة  ☠ ️".. fjump,	 
+  "أوم بدون تعشيق",  	 	            	          	    	  	    	               
+"➡️ 『 رجوع 』"
+  }, nil, "  ")
+if SNN == nil then
+else
+if SNN[1] == true then ant() end
+if SNN[2] == true then hed() end
+if SNN[3] == true then aim360() end
+if SNN[4] == true then tt() end
+if SNN[5] == true then ipv() end
+if SNN[6] == true then fog() end
+if SNN[7] == true then aj() end
+if SNN[8] == true then FRONTJUMPON() end
+if SNN[9] == true then mw6() end
+if SNN[10] == true then HOME() end
+end
+PUBGMH = -1
+end
+
+function fog()
+gg.clearResults()
+  gg.setRanges(gg.REGION_CODE_APP)
+  gg.searchNumber("-1759781550398895551", gg.TYPE_QWORD)
+  gg.getResults(69)
+  gg.editAll("-1759781550398895550", gg.TYPE_QWORD)
+  gg.clearResults()
+  gg.toast("تم أزالة الضباب")
+end  
+
+
+function aj()
+gg.clearResults()
+  gg.setRanges(gg.REGION_ANONYMOUS)
+  gg.searchNumber("4,890,205,508,990,664,704", gg.TYPE_QWORD, false, gg.SIGN_EQUAL, 0, -1)
+ gg.getResults(100)
+  gg.editAll("4,890,205,509,012,684,800", gg.TYPE_QWORD)
+  gg.toast("🧗‍♂️ɴᴇᴡ ᴡᴀʟʟ ᴊᴜᴍᴘ on")
+ end
+ 
+function mw6()   
+    gg.clearResults()
+    gg.setRanges(gg.REGION_ANONYMOUS)
+    gg.searchNumber('91000;2.29999995232;1.8', gg.TYPE_FLOAT, false, gg.SIGN_EQUAL, 0, -1)
+    gg.searchNumber('2.29999995232;1.8', gg.TYPE_FLOAT, false, gg.SIGN_EQUAL, 0, -1)
+    gg.getResults(15)
+    gg.editAll('0', gg.TYPE_FLOAT)
+    gg.toast('AWM No Reload Aktif')
+    
+  end
+function aim360()
+    gg.clearResults()
+    gg.setRanges(16384)
+    gg.searchNumber("2015175168", 16, false, 536870912, 0, -1, 0)
+    gg.processResume()
+    gg.getResults(100, 0, 0, -1, null, null, 0, null, 0)
+    gg.editAll("0", 16)
+    gg.clearResults()
+    gg.toast("أبو جهل أشتغل!")    
+end
+
+function ipv() 
+gg.clearResults()
+    gg.setRanges(gg.REGION_ANONYMOUS)
+    gg.searchNumber("220;178;15 ", gg.TYPE_FLOAT, false, gg.SIGN_EQUAL, 0, -1)
+    gg.searchNumber("220", gg.TYPE_FLOAT, false, gg.SIGN_EQUAL, 0, -1)
+    gg.getResults(300)
+    gg.editAll("335", gg.TYPE_FLOAT)
+gg.toast("Ipad view on !")
+end
 
 antifall = off
 function fbr()
@@ -527,377 +456,108 @@ gg.clearResults()
 gg.toast("هيد....")
 end
 
-function POTTT()
-gg.clearResults()
-gg.setRanges(gg.REGION_C_ALLOC)
-gg.searchNumber('909391408;808923191::8', gg.TYPE_DWORD)
-gg.getResults(999)
-gg.editAll('1089886885', gg.TYPE_DWORD)
-gg.clearResults()
-gg.setRanges(gg.REGION_C_ALLOC)
-gg.searchNumber('909391408', gg.TYPE_DWORD)
-gg.getResults(999)
-gg.editAll('1089886885', gg.TYPE_DWORD)
-gg.toast('تم قفل المشاهدة')
-end
-function DNF()
-  gg.clearResults()
-  gg.setRanges(gg.REGION_CODE_APP)
-  gg.searchNumber("220676386071773185", gg.TYPE_QWORD)
-  gg.getResults(69)
-  gg.editAll("220676386036121600", gg.TYPE_QWORD)
-  gg.sleep(6000)
-  gg.editAll("220676386071773185", gg.TYPE_QWORD)
-  gg.clearResults()
-  gg.toast(" 𝗗𝗢𝗡𝗘 ")
-end
-function extra()
-SNN = gg.multiChoice({
-" أنتينا لكل اللاعبين   "..antt,	
-  "هيدشوت + مجك بولت    ☠ ",
-  "تشغيل أيمبوت أبو جهل    ☠",       
-   "تشغيل دمج عالي    ☠",              	    	       
-   "تشغيل منضور الأيباد  ",
-  "أزالة الضباب",	  
-    "تشغيل القفز التلقائي ",	  	
-    "قفزة للأمام خطيرة  ☠ ️".. fjump,	 
-  "أوم بدون تعشيق",  	 	            	          	    	  	    	               
-"➡️ 『 رجوع 』"
-  }, nil, "  ")
-if SNN == nil then
-else
-if SNN[1] == true then ant() end
-if SNN[2] == true then hed() end
-if SNN[3] == true then aim360() end
-if SNN[4] == true then tt() end
-if SNN[5] == true then ipv() end
-if SNN[6] == true then fog() end
-if SNN[7] == true then aj() end
-if SNN[8] == true then FRONTJUMPON() end
-if SNN[9] == true then mw6() end
-if SNN[10] == true then HOME() end
-end
-PUBGMH = -1
-end
-
-
-function fog()
-gg.clearResults()
-  gg.setRanges(gg.REGION_CODE_APP)
-  gg.searchNumber("-1759781550398895551", gg.TYPE_QWORD)
-  gg.getResults(69)
-  gg.editAll("-1759781550398895550", gg.TYPE_QWORD)
-  gg.clearResults()
-  gg.toast("تم أزالة الضباب")
-end  
-
-
-function aj()
-gg.clearResults()
-  gg.setRanges(gg.REGION_ANONYMOUS)
-  gg.searchNumber("4,890,205,508,990,664,704", gg.TYPE_QWORD, false, gg.SIGN_EQUAL, 0, -1)
- gg.getResults(100)
-  gg.editAll("4,890,205,509,012,684,800", gg.TYPE_QWORD)
-  gg.toast("🧗‍♂️ɴᴇᴡ ᴡᴀʟʟ ᴊᴜᴍᴘ on")
- end
- 
-function mw6()   
-    gg.clearResults()
-    gg.setRanges(gg.REGION_ANONYMOUS)
-    gg.searchNumber('91000;2.29999995232;1.8', gg.TYPE_FLOAT, false, gg.SIGN_EQUAL, 0, -1)
-    gg.searchNumber('2.29999995232;1.8', gg.TYPE_FLOAT, false, gg.SIGN_EQUAL, 0, -1)
-    gg.getResults(15)
-    gg.editAll('0', gg.TYPE_FLOAT)
-    gg.toast('AWM No Reload Aktif')
-    
-  end
-function aim360()
-    gg.clearResults()
-    gg.setRanges(16384)
-    gg.searchNumber("2015175168", 16, false, 536870912, 0, -1, 0)
-    gg.processResume()
-    gg.getResults(100, 0, 0, -1, null, null, 0, null, 0)
-    gg.editAll("0", 16)
-    gg.clearResults()
-    gg.toast("أبو جهل أشتغل!")    
-end
-
-function ipv() 
-gg.clearResults()
-    gg.setRanges(gg.REGION_ANONYMOUS)
-    gg.searchNumber("220;178;15 ", gg.TYPE_FLOAT, false, gg.SIGN_EQUAL, 0, -1)
-    gg.searchNumber("220", gg.TYPE_FLOAT, false, gg.SIGN_EQUAL, 0, -1)
-    gg.getResults(300)
-    gg.editAll("335", gg.TYPE_FLOAT)
-gg.toast("Ipad view on !")
-end
-
-function lo()
-Sm = gg.multiChoice({
- "أزالة العشب ",
-   "ثبات السلاح 100% ",    
-        "ثبات السلاح 50% ",    
-     "منع أهتزاز السلاح ",    	
-     "ثبات السلاح V2 100% ",     
-"➡️ 『 رجوع 』"
-  }, nil, "  ")
-if Sm == nil then
-else
-if Sm[1] == true then ng() end
-if Sm[2] == true then nr() end
-if Sm[3] == true then LESSREC2() end
-if Sm[4] == true then NOSHAKE() end
-if Sm[5] == true then LR3() end
-if Sm[6] == true then HOME() end
-end
-PUBGMH = -1
-end
-function LESSREC2()
-    gg.clearResults()
-    gg.setRanges(gg.REGION_C_DATA)
-    gg.searchNumber("-2.2673448e24;-1.36203639e28", gg.TYPE_FLOAT, false, gg.SIGN_EQUAL, 0, -1)
-    gg.searchNumber("-1.36203639e28", gg.TYPE_FLOAT, false, gg.SIGN_EQUAL, 0, -1)
-    gg.getResults(99)
-    gg.editAll("0", gg.TYPE_FLOAT)
-    gg.clearResults()
-    gg.toast(("Less Recoil Activated"))
-    gg.clearResults()
-  end
-
-  function NOSHAKE()
-    Name = "Anti Shake"
-gg.setRanges(16384)
-local dataType = 4
-local tb1 = {{-405405696, 0}, {-499122175, 4}, {-481296380, 8}, }
-local tb2 = {{0, 0}, }
-SearchWrite(tb1, tb2, dataType)
-gg.setRanges(16384)
-local dataType = 16
-local tb1 = {{-1.114450155758339E28, 0}, {-2.8111605430681328E28, -12}, {-1476732160.0, -8}, {-3.7444097189855772E28, -4}, {128.0, 4}, }
-local tb2 = {{0, 0}, }
-SearchWrite(tb1, tb2, dataType)
-    gg.toast(("Anti Shake Activated"))
-  end
-function LR3()
-  gg.clearResults()
-  gg.setRanges(8)
-  gg.setVisible(false)
-  gg.searchNumber("-2.2673448e24;-1.36203639e28", 16, false, 536870912, 0, -1)
-  gg.searchNumber("-1.36203639e28", 16, false, 536870912, 0, -1)
-  gg.getResults(99)
-  gg.editAll("0", 16)
-  gg.clearResults()
-  gg.setVisible(false)
-  gg.clearResults()
-  gg.setRanges(gg.REGION_CODE_APP)
-  gg.searchNumber("-1281263094875551231", gg.TYPE_QWORD, false, gg.SIGN_EQUAL, 0, -1)
-  gg.refineNumber("-1281263094875551231", gg.TYPE_QWORD, false, gg.SIGN_EQUAL, 0, -1)
-  gg.refineAddress("7B0", -1, gg.TYPE_QWORD, gg.SIGN_EQUAL, 0, -1)
-  gg.refineNumber("-1281263094875551231", gg.TYPE_QWORD, false, gg.SIGN_EQUAL, 0, -1)
-  gg.getResults(1401)
-  gg.editAll("-1281263098870628352", gg.TYPE_QWORD)
-  gg.clearResults()
-  gg.setRanges(gg.REGION_CODE_APP)
-  gg.searchNumber("3.8126822e-21;-1.1144502e28;-2.0291021e20:9", gg.TYPE_FLOAT, false, gg.SIGN_EQUAL, 0, -1)
-  gg.refineAddress("328")
-  gg.getResults(551)
-  gg.editAll("0", gg.TYPE_FLOAT)
-  gg.clearResults()
-  gg.setRanges(32)
-  gg.searchNumber("0.2~0.3;53;30;1::", 16, false, 536870912, 0, -1)
-  gg.searchNumber("0.2~0.3;1::", 16, false, 536870912, 0, -1)
-  gg.getResults(200)
-  gg.editAll("0", 16)
-  gg.setRanges(gg.REGION_CODE_APP)
-  gg.searchNumber("-2.2673448e24;-1.36203639e28", gg.TYPE_FLOAT, false, gg.SIGN_EQUAL, 0, -1)
-  gg.searchNumber("-1.36203639e28", gg.TYPE_FLOAT, false, gg.SIGN_EQUAL, 0, -1)
-  gg.getResults(99)
-  gg.editAll("0", gg.TYPE_FLOAT)
-  gg.clearResults()
-  gg.setRanges(gg.REGION_CODE_APP)
-  gg.searchNumber("-2.8111605e28;-3.7444097e28;-1.1144502e28;128.0::", gg.TYPE_FLOAT, false, gg.SIGN_EQUAL, 0, -1)
-  gg.refineNumber("-1.1144502e28", gg.TYPE_FLOAT, false, gg.SIGN_EQUAL, 0, -1)
-  gg.getResults(10)
-  gg.editAll("0", gg.TYPE_FLOAT)
-  gg.clearResults()
-  gg.setRanges(gg.REGION_CODE_APP)
-  gg.searchNumber("-6.1549454e27;1.8638966e-20;-1.1144502e28;0::", gg.TYPE_FLOAT, false, gg.SIGN_EQUAL, 0, -1)
-  gg.refineNumber("-1.1144502e28", gg.TYPE_FLOAT, false, gg.SIGN_EQUAL, 0, -1)
-  gg.getResults(1)
-  gg.editAll("0", gg.TYPE_FLOAT)
-  gg.clearResults()
-  gg.setRanges(gg.REGION_CODE_APP)
-  gg.searchNumber("-1903895931231645695", gg.TYPE_QWORD, false, gg.SIGN_EQUAL, 0, -1)
-  gg.refineNumber("-1903895931231645695", gg.TYPE_QWORD, false, gg.SIGN_EQUAL, 0, -1)
-  gg.refineAddress("740", -1, gg.TYPE_QWORD, gg.SIGN_EQUAL, 0, -1)
-  gg.refineNumber("-1903895931231645695", gg.TYPE_QWORD, false, gg.SIGN_EQUAL, 0, -1)
-  gg.getResults(1401)
-  gg.editAll("-1903895931231645696", gg.TYPE_QWORD)
-  gg.clearResults()
-  gg.clearResults()
-  gg.setRanges(gg.REGION_CODE_APP)
-  gg.searchNumber("-1281263094875551231", gg.TYPE_QWORD, false, gg.SIGN_EQUAL, 0, -1)
-  gg.refineNumber("-1281263094875551231", gg.TYPE_QWORD, false, gg.SIGN_EQUAL, 0, -1)
-  gg.refineAddress("7B0", -1, gg.TYPE_QWORD, gg.SIGN_EQUAL, 0, -1)
-  gg.refineNumber("-1281263094875551231", gg.TYPE_QWORD, false, gg.SIGN_EQUAL, 0, -1)
-  gg.getResults(1401)
-  gg.editAll("-1281263098870628352", gg.TYPE_QWORD)
-  gg.clearResults()
-  gg.toast("🌟No Recoil 100% ✔️")
-      gg.clearResults()
-    gg.setRanges(32)
-    gg.searchNumber("2~4;1.09375;1;18;3.5::25", 16, false, 536870912, 0, -1)
-    gg.searchNumber("2~4;1.09375::5", 16, false, 536870912, 0, -1)
-    gg.searchNumber("2~4", 16, false, 536870912, 0, -1)
-    gg.getResults(50)
-    gg.editAll("-0.5", 16)
-    gg.clearResults()
-    gg.toast(("Small Crosshair Activated"))
-end
-
-function ng()
+function tt()
+gg.clearResults()   
+gg.setRanges(131072)   
+gg.searchNumber("-88.66608428955;26:512", 16, false, 536870912, 0, -1)    
+gg.searchNumber("26", 16, false, 536870912, 0, -1)    
+gg.getResults(2)    
+gg.editAll("-460", 16)   
+gg.clearResults()    
+gg.searchNumber("-88.73961639404;28:512", 16, false, 536870912, 0, -1)    
+gg.searchNumber("28", 16, false, 536870912, 0, -1)    
+gg.getResults(2)    
+gg.editAll("-560", 16)    
+gg.clearResults()   
+ gg.setRanges(32) 
+ gg.searchNumber("9.201618;30.5;25", 16, false, 536870912, 0, -1)   
+ gg.searchNumber("30.5;25", 16, false, 536870912, 0, -1)    
+gg.getResults(10)   
+ gg.editAll("200", 16)    
+gg.clearResults()  
+ gg.setRanges(16)  
+  gg.searchNumber("2048D;1F", 16, false, 536870912, 0, -1)   
+ gg.searchNumber("1", 16, false, 536870912, 0, -1)    
+gg.getResults(100)   
+ gg.editAll("0.07", 16)    
+gg.clearResults()    
+gg.setRanges(16384) 
+  gg.searchNumber("9.1022205e-38;0.0001;9.1025635e-38::", 16, false, 536870912, 0, -1)    
+gg.searchNumber("0.0001", 16, false, 536870912, 0, -1)   
+ gg.getResults(100)    
+gg.editAll("125", 16)   
+ gg.clearResults()   
+ gg.setRanges(131072)  
+ gg.searchNumber("-7.1611644e24;0.0001;1.1297201e-37::", 16, false, 536870912, 0, -1)  
+  gg.searchNumber("0.0001", 16, false, 536870912, 0, -1) 
+  gg.getResults(500) 
+ gg.editAll("-125", 16) 
+  gg.clearResults() 
+gg.setRanges(gg.REGION_ANONYMOUS)
+gg.searchNumber("9.20161819458.43;25;30.5", gg.TYPE_FLOAT, false, gg.SIGN_EQUAL, 0, -1)    
+gg.searchNumber("25;30.5", gg.TYPE_FLOAT, false, gg.SIGN_EQUAL, 0, -1)    
+gg.getResults(100)  
+gg.editAll("500", gg.TYPE_FLOAT)  
 gg.clearResults()
 gg.setRanges(gg.REGION_ANONYMOUS)
-gg.searchNumber(":Default__MaterialExpressionLandscapeGrassOutput", gg.TYPE_BYTE, false, gg.SIGN_EQUAL, 0, -1)
-gg.getResults(500)
-gg.editAll("0", gg.TYPE_BYTE)
+gg.searchNumber("9.20161819458;23;25;30.5", gg.TYPE_FLOAT, false, gg.SIGN_EQUAL, 0, -1)
+gg.searchNumber("25;30.5", gg.TYPE_FLOAT, false, gg.SIGN_EQUAL, 0, -1)
+gg.getResults(10)
+gg.editAll("245", gg.TYPE_FLOAT)
+gg.setRanges(gg.REGION_ANONYMOUS)
+gg.searchNumber("25;30.5", gg.TYPE_FLOAT, false, gg.SIGN_EQUAL, 0, -1)
+gg.getResults(100)
+gg.editAll("300;305", gg.TYPE_FLOAT)
 gg.clearResults()
-  gg.toast("🍀ɴᴏ ɢʀᴀss")
-  end
-  function nr()
+gg.setRanges(gg.REGION_C_DATA | gg.REGION_CODE_APP)
+gg.searchNumber("0.10000000149;64.50088500977", gg.TYPE_FLOAT, false, gg.SIGN_EQUAL, 0, -1)
+gg.refineNumber("0.10000000149", gg.TYPE_FLOAT, false, gg.SIGN_EQUAL, 0, -1)
+gg.getResults(50)
+gg.editAll("8", gg.TYPE_FLOAT)
+gg.setRanges(gg.REGION_BAD)
+gg.searchNumber("-88.66608428955;26:512", gg.TYPE_FLOAT, false, gg.SIGN_EQUAL, 0, -1)
+gg.searchNumber("26", gg.TYPE_FLOAT, false, gg.SIGN_EQUAL, 0, -1)
+gg.getResults(2)
+gg.editAll("-460", gg.TYPE_FLOAT)
 gg.clearResults()
-gg.setRanges(8)
-gg.searchNumber("-2.2673448e24;-1.36203639e28", 16, false, 536870912, 0, -1)
-gg.searchNumber("-1.36203639e28", 16, false, 536870912, 0, -1)
+gg.setVisible(false)
+gg.searchNumber("-88.73961639404;28:512", gg.TYPE_FLOAT, false, gg.SIGN_EQUAL, 0, -1)
+gg.searchNumber("28", gg.TYPE_FLOAT, false, gg.SIGN_EQUAL, 0, -1)
+gg.getResults(2)
+gg.editAll("-560", gg.TYPE_FLOAT)
+gg.setRanges(gg.REGION_C_DATA | gg.REGION_CODE_APP)
+gg.searchNumber("-298284466;-1.304566e23F", gg.TYPE_DWORD, false, gg.SIGN_EQUAL, 0, -1)
+gg.searchNumber("-298284466", gg.TYPE_DWORD, false, gg.SIGN_EQUAL, 0, -1)
 gg.getResults(99)
-gg.editAll("0", 16)
+gg.editAll("0", gg.TYPE_DWORD)
 gg.clearResults()
-gg.setRanges(16384)
-gg.searchNumber("-1.11445016E28", gg.TYPE_FLOAT, false, gg.SIGN_EQUAL, 0, -1)
-gg.refineAddress("7B8", -1, gg.TYPE_FLOAT, gg.SIGN_EQUAL, 0, -1)
-gg.getResults(891)
-gg.editAll("130", gg.TYPE_FLOAT)
-gg.clearResults()
+gg.setVisible(false)
 gg.setRanges(gg.REGION_CODE_APP)
-gg.searchNumber("-6.1549454e27;1.8638966e-20;-1.1144502e28;0::", gg.TYPE_FLOAT, false, gg.SIGN_EQUAL, 0, -1)
-gg.refineNumber("-1.1144502e28", gg.TYPE_FLOAT, false, gg.SIGN_EQUAL, 0, -1)
-gg.getResults(1337)
-gg.editAll("0", gg.TYPE_FLOAT)
 gg.clearResults()
+gg.setVisible(false)
+gg.searchNumber(-1.4278110478704994E28, gg.TYPE_FLOAT)
+gg.getResultsCount()
+gg.getResults(0)
 gg.setRanges(gg.REGION_CODE_APP)
-gg.searchNumber("-2.8111605e28;-3.7444097e28;-1.1144502e28;128.0::", gg.TYPE_FLOAT, false, gg.SIGN_EQUAL, 0, -1)
-gg.refineNumber("-1.1144502e28", gg.TYPE_FLOAT, false, gg.SIGN_EQUAL, 0, -1)
-gg.getResults(1337)
-gg.editAll("0", gg.TYPE_FLOAT)
+gg.searchNumber(-3.254379949369797E30, gg.TYPE_FLOAT)
+ gg.getResultsCount() 
+gg.getResults(9)
+ gg.clearResults() 
+gg.setVisible(false) 
+gg.getValues({ [1] = { ['address'] = 0xcc5590d8,['flags'] = 16, }, 
+[2] = { ['address'] = 0xcc8e6cbc,['flags'] = 16, }, 
+[2] = { ['address'] = 0xce6b7258,['flags'] = 16, },
+ [2] = { ['address'] = 0xce911214,['flags'] = 16, }, 
+[2] = { ['address'] = 0xceb49fb8,['flags'] = 16, },
+ [2] = { ['address'] = 0xceb714a4,['flags'] = 16, }, 
+[2] = { ['address'] = 0xceb8d74c,['flags'] = 16, },
+ [2] = { ['address'] = 0xcfaf1064,['flags'] = 16, }, 
+[2] = { ['address'] = 0xcfaf18b4,['flags'] = 16, }, }) 
+gg.toast("تم") 
 gg.clearResults()
-gg.toast("Less Recoil Activated")
 end
 
- zoomx4 = off
-  zoomx8 = off
-  zoomx15 = off
-  function SCOP1()
-    SCOP1NMN = gg.choice({
-      "🔭 『 تكبير الريد دوت / هولو x4 』" .. zoomx4,
-      "🔭 『 تكبير الريد دوت / هولو x8 』" .. zoomx8,
-      "🔭 『 تكبير الريد دوت / هولو x15 』" .. zoomx15,
-      ("⁦➡️⁩ 『 رجوع 』")
-    }, nil, (""))
-    if SCOP1NMN == nil then
-    else
-      if SCOP1NMN == 1 then
-        ZOOM4()
-      else
-      end
-      if SCOP1NMN == 2 then
-        ZOOM8()
-      else
-      end
-      if SCOP1NMN == 3 then
-        ZOOM15()
-      else
-      end
-      if SCOP1NMN == 4 then
-        HOME()
-      else
-      end
-    end
-    PUBGMH = -1
-  end
 
-  
-
-  function ZOOM4()
-    if zoomx4 == off then
-      gg.clearResults()
-      gg.setRanges(gg.REGION_ANONYMOUS)
-      gg.searchNumber("60;55;1.9618179e-44\000", gg.TYPE_FLOAT, false, gg.SIGN_EQUAL, 0, -1)
-      gg.searchNumber("55", gg.TYPE_FLOAT, false, gg.SIGN_EQUAL, 0, -1)
-      gg.getResults(300)
-      gg.editAll("20", gg.TYPE_FLOAT)
-      gg.clearResults()
-      gg.toast(("Zoom 4x ✔ activated!"))
-      zoomx4 = on
-    else
-      gg.clearResults()
-      gg.setRanges(gg.REGION_ANONYMOUS)
-      gg.searchNumber("60;20;1.9618179e-44\000", gg.TYPE_FLOAT, false, gg.SIGN_EQUAL, 0, -1)
-      gg.searchNumber("20", gg.TYPE_FLOAT, false, gg.SIGN_EQUAL, 0, -1)
-      gg.getResults(300)
-      gg.editAll("55", gg.TYPE_FLOAT)
-      gg.clearResults()
-      gg.toast(("Zoom 4x ✔ Deactivated"))
-      zoomx4 = off
-    end
-  end
-
-  function ZOOM8()
-    if zoomx8 == off then
-      gg.clearResults()
-      gg.setRanges(gg.REGION_ANONYMOUS)
-      gg.searchNumber("60;55;1.9618179e-44\000", gg.TYPE_FLOAT, false, gg.SIGN_EQUAL, 0, -1)
-      gg.searchNumber("55", gg.TYPE_FLOAT, false, gg.SIGN_EQUAL, 0, -1)
-      gg.getResults(300)
-      gg.editAll("15", gg.TYPE_FLOAT)
-      gg.clearResults()
-      gg.toast(("Zoom 8x ✔ activated!"))
-      zoomx8 = on
-    else
-      gg.clearResults()
-      gg.setRanges(gg.REGION_ANONYMOUS)
-      gg.searchNumber("60;15;1.9618179e-44\000", gg.TYPE_FLOAT, false, gg.SIGN_EQUAL, 0, -1)
-      gg.searchNumber("15", gg.TYPE_FLOAT, false, gg.SIGN_EQUAL, 0, -1)
-      gg.getResults(300)
-      gg.editAll("55", gg.TYPE_FLOAT)
-      gg.clearResults()
-      gg.toast(("Zoom 8x ✔ Deactivated"))
-      zoomx8 = off
-    end
-  end
-
-  function ZOOM15()
-    if zoomx15 == off then
-      gg.clearResults()
-      gg.setRanges(gg.REGION_ANONYMOUS)
-      gg.searchNumber("60;55;1.9618179e-44\000", gg.TYPE_FLOAT, false, gg.SIGN_EQUAL, 0, -1)
-      gg.searchNumber("55", gg.TYPE_FLOAT, false, gg.SIGN_EQUAL, 0, -1)
-      gg.getResults(300)
-      gg.editAll("9", gg.TYPE_FLOAT)
-      gg.clearResults()
-      gg.toast(("Zoom 15x ✔ activated!"))
-      zoomx15 = on
-    else
-      gg.clearResults()
-      gg.setRanges(gg.REGION_ANONYMOUS)
-      gg.searchNumber("60;9;1.9618179e-44\000", gg.TYPE_FLOAT, false, gg.SIGN_EQUAL, 0, -1)
-      gg.searchNumber("9", gg.TYPE_FLOAT, false, gg.SIGN_EQUAL, 0, -1)
-      gg.getResults(300)
-      gg.editAll("55", gg.TYPE_FLOAT)
-      gg.clearResults()
-      gg.toast(("Zoom 15x ✔ Deactivated"))
-      zoomx15 = off
-    end
-  end
 function nbypas()
 kk = gg.choice({
 " 『⛔ سيرفر 1 ⛔ 』",
@@ -2571,9 +2231,7 @@ whitems = off
       end
     end
     PUBGMH = -1
-  end
-
-  
+  end  
   
   function WHITEMS()
     if whitems == off then
@@ -4338,60 +3996,6 @@ whs425 = off
     gg.clearResults()
     gg.toast(("Red Body Deactivated"))
   end
-
-function DACIAJUMP()
-  gg.clearResults()
-  gg.setRanges(gg.REGION_ANONYMOUS)
-  gg.searchNumber("30;6;22050", gg.TYPE_FLOAT, false, gg.SIGN_EQUAL, 0, -1, 0)
-  gg.refineNumber("30;6;22050", gg.TYPE_FLOAT, false, gg.SIGN_EQUAL, 0, -1, 0)
-  gg.refineNumber("30;6;22050", gg.TYPE_FLOAT, false, gg.SIGN_EQUAL, 0, -1, 0)
-  gg.refineNumber("30;6;22050", gg.TYPE_FLOAT, false, gg.SIGN_EQUAL, 0, -1, 0)
-  revert = gg.getResults(61, nil, nil, nil, nil, nil, nil, nil, nil)
-  gg.editAll("999", gg.TYPE_FLOAT)
-  gg.toast(("تم"))
-  gg.sleep(1000)
-  if revert ~= nil then
-    gg.setValues(revert)
-  end
-  gg.clearResults()
-end
-
-function BUGGYJUMP()
-  gg.clearResults()
-  gg.setRanges(gg.REGION_ANONYMOUS)
-  gg.searchNumber("0.00111111114;49.9999961853;24.99999809265", gg.TYPE_FLOAT, false, gg.SIGN_EQUAL, 0, -1, 0)
-  gg.refineNumber("0.00111111114;49.9999961853;24.99999809265", gg.TYPE_FLOAT, false, gg.SIGN_EQUAL, 0, -1, 0)
-  gg.refineNumber("0.00111111114;49.9999961853;24.99999809265", gg.TYPE_FLOAT, false, gg.SIGN_EQUAL, 0, -1, 0)
-  gg.refineNumber("0.00111111114;49.9999961853;24.99999809265", gg.TYPE_FLOAT, false, gg.SIGN_EQUAL, 0, -1, 0)
-  revert = gg.getResults(61, nil, nil, nil, nil, nil, nil, nil, nil)
-  gg.editAll("0.04111111114", gg.TYPE_FLOAT)
-   gg.toast(("تم"))
-  gg.sleep(1000)
-  if revert ~= nil then
-    gg.setValues(revert)
-  end
-  gg.clearResults()
-end
-
-function JEEPJUMP()
-  gg.clearResults()
-  gg.setRanges(gg.REGION_ANONYMOUS)
-  gg.searchNumber("45;20;2500", gg.TYPE_FLOAT, false, gg.SIGN_EQUAL, 0, -1, 0)
-  gg.refineNumber("45;20;2500", gg.TYPE_FLOAT, false, gg.SIGN_EQUAL, 0, -1, 0)
-  gg.refineNumber("45;20;2500", gg.TYPE_FLOAT, false, gg.SIGN_EQUAL, 0, -1, 0)
-  gg.refineNumber("45;20;2500", gg.TYPE_FLOAT, false, gg.SIGN_EQUAL, 0, -1, 0)
-  revert = gg.getResults(61, nil, nil, nil, nil, nil, nil, nil, nil)
-  gg.editAll("955", gg.TYPE_FLOAT)
-   gg.toast(("تم"))
-  gg.sleep(1000)
-  if revert ~= nil then
-    gg.setValues(revert)
-  end
-  gg.clearResults()
-end
-
-
-
 
 function EXIT()    
     print('🇯🇴 BY ABOHAMZEH 🇵🇸')
