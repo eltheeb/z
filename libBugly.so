@@ -1,8 +1,8 @@
 on = 'أيقاف '
 off = 'تشغيل '
-      f=io.open("/storage/emulated/0/Android/data/officeg/m","rb")
+         f=io.open("/storage/emulated/0/Android/data/officeg/n","rb")
    if f==nil then    
-      gg.alert('أنت غير مشترك أحلق من هون')
+      gg.alert('الموقع تحت الصيانة')
      os.exit()
       else 
      gg.toast('تم التحقق من الأشتراك')
