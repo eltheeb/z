@@ -34,10 +34,10 @@ if SL[5] == true then laim() end
 if SL[6] == true then AL() end
 if SL[7] == true then MB() end
 if SL[8] == true then lipv() end
-if SL[7] == true then lng() end
-if SL[9] == true then lpov() end
-if SL[10] == true then lsc() end
-if SL[11] == true then EXIT() end
+if SL[9] == true then lng() end
+if SL[10] == true then lpov() end
+if SL[11] == true then lsc() end
+if SL[12] == true then EXIT() end
 end
 PUBGMH = -1
 end
