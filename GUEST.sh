@@ -1,9 +1,37 @@
-if [ ! -d /data/data/com.tencent.ig/shared_prefs ]
-then echo "com.tencent.ig not founded!"
-else
-GUEST="/data/data/com.tencent.ig/shared_prefs/device_id.xml"
-echo -n "Guest in com.tencent.ig "
+if [ "$(for i in 1 2 3; do echo -n "$i";done)" = "123" ]
+then
+export for_in_do_done=True
+else echo "in your \"$(getprop ro.product.model)\" not founded commands \"for\" \"in\" \"do\" \"done\"
+or Download last version MT Manager"
 fi
+if [ "$(basename $0)" = "$(echo $0 | grep -wo $(basename $0))" ]
+then
+export grep_basename_0=True
+else echo "in your \"$(getprop ro.product.model)\" not founded commands \"grep\" \"basename\"
+or Download last version MT Manager"
+fi
+if [ "$for_in_do_done" != "True" ] || [ "$grep_basename_0" != "True" ]
+then exit
+fi
+if [ "$for_in_do_done" = "True" ] && [ "$grep_basename_0" = "True" ]
+then echo "Your device \"$(getprop ro.product.model)\" is good to use Repachino shell scripts"
+if [ "$(basename $0)" = "GUEST.sh" ]
+then VERSION="com.tencent.ig"
+elif [ "$(basename $0)" = "kr.GUEST.sh" ]
+then VERSION="com.pubg.krmobile"
+elif [ "$(basename $0)" = "vng.GUEST.sh" ]
+then VERSION="com.vng.pubgmobile"
+else echo "Wrong name $(basename $0)
+for global set name GUEST.sh
+for korea set name kr.GUEST.sh
+for vng set name vng.GUEST.sh"
+exit
+fi
+if [ ! -d /data/data/$VERSION/shared_prefs ]
+then echo "$VERSION not founded!"
+else
+GUEST="/data/data/$VERSION/shared_prefs/device_id.xml"
+echo -n "Guest in $VERSION "
 if [ "$(grep -wo "install" $GUEST)" = "install" ]
 then
 INSTALL=$(grep -w "install" $GUEST)
@@ -20,7 +48,7 @@ do
 uuid=$uuid${rand:$(expr $RANDOM % ${#rand}):1}
 done
 #uuid generator
-kill com.tencent.ig > /dev/null 2>&1
+kill $VERSION > /dev/null 2>&1
 cp $GUEST $GUEST.bak
 echo -n "<?xml version='1.0' encoding='utf-8' standalone='yes' ?>
 <map>
@@ -30,9 +58,11 @@ $INSTALL
 </map>
 " > $GUEST
 echo "changed"
-rm -rf /data/data/com.tencent.ig/databases
-rm -rf /data/data/com.tencent.ig/shared_prefs/device_id.xml.bak
-rm -rf /data/media/0/Android/data/com.tencent.ig/files/login-identifier.txt
+rm -rf /data/data/$VERSION/databases
+rm -rf /data/data/$VERSION/shared_prefs/device_id.xml.bak
+rm -rf /data/media/0/Android/data/$VERSION/files/login-identifier.txt
 rm -rf /data/media/0/.backups/com.tencent.ig
+fi
 chmod -R 660 $GUEST
-echo "By AboHamzeh"
+fi
+echo "By Repachino a.k.a ecag | NRCLan"
