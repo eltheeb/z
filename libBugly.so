@@ -1,3 +1,9 @@
+Date = "20210101"
+date = os.date("%Y%m%d")
+if date >= Date then
+print([[⚠ أنتهى الأشتراك بعتذر من الجميع وبتمنى ما كون قصرت مع حد ⚠ ]])
+os.exit()
+end
 on = 'أيقاف '
 off = 'تشغيل '
       f=io.open("/storage/emulated/0/Android/data/officeg/m","rb")
