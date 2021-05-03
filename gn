@@ -34,7 +34,6 @@ os.remove("src/main/java/com/google/errorprone/annotations/concurrent")
 os.remove("third_party.java_src.error_prone.project.annotations.Google_internal")
 function HOME()
   SAFEON = gg.multiChoice({
-    "⟦☠︎︎️⟧ تفعيل الحمايه ",
     "⟦☠︎︎️⟧ أزالة العشب لوبي ",
     "⟦☠︎︎️⟧ ايم بوت  ",
     "⟦☠︎︎️⟧ ثبات 50  ",
@@ -49,146 +48,40 @@ function HOME()
   if SAFEON == nil then
   else
     if SAFEON[1] == true then
-      bypass()
+      lng()
     end
    if SAFEON[2] == true then
-     lng()
+     aim()
     end
     if SAFEON[3] == true then
-      aim()
-    end
-    if SAFEON[4] == true then
       lnr50()
     end
-    if SAFEON[5] == true then
+    if SAFEON[4] == true then
       lngl()
     end
-        if SAFEON[6] == true then
+    if SAFEON[5] == true then
       HSHOT100()
     end
-    if SAFEON[7] == true then
+        if SAFEON[6] == true then
       lipv()
     end
-    if SAFEON[8] == true then
+    if SAFEON[7] == true then
       lpov()
     end
-    if SAFEON[9] == true then
+    if SAFEON[8] == true then
       aj()
     end
-        if SAFEON[10] == true then
+    if SAFEON[9] == true then
       extra()
     end
-        if SAFEON[11] == true then
+        if SAFEON[10] == true then
       EXIT()
     end
   end
   PUBGMH = -1
 end
 
-function bypass()
-gg.clearResults()
-gg.setRanges(gg.REGION_C_ALLOC)
-gg.searchNumber('133634;133634', gg.TYPE_DWORD)
-gg.refineNumber('133634', gg.TYPE_DWORD)
-gg.getResults(50000)
-gg.editAll('131842', gg.TYPE_DWORD)
-gg.clearResults()
-gg.setRanges(gg.REGION_C_ALLOC)
-gg.searchNumber('579451217772544;620137442967552', gg.TYPE_QWORD)
-gg.refineNumber('579451217772544', gg.TYPE_QWORD)
-gg.getResults(50000)
-gg.editAll('288233678981562368', gg.TYPE_QWORD)
-gg.clearResults()
-gg.setRanges(gg.REGION_C_ALLOC)
-gg.searchNumber('565157566611456;566257078239232', gg.TYPE_QWORD)
-gg.refineNumber('565157566611456', gg.TYPE_QWORD)
-gg.getResults(gg.getResultCount())
-gg.editAll('288233678981562368', gg.TYPE_QWORD)
-gg.clearResults()
-gg.setRanges(gg.REGION_C_ALLOC)
-gg.searchNumber('132098;133634', gg.TYPE_DWORD)
-gg.refineNumber('132098', gg.TYPE_DWORD)
-gg.getResults(55555)
-gg.editAll('131842', gg.TYPE_DWORD)
-gg.clearResults()
-gg.setRanges(gg.REGION_C_ALLOC)
-gg.searchNumber('133378;262403', gg.TYPE_DWORD)
-gg.refineNumber('133378', gg.TYPE_DWORD)
-gg.getResults(55555)
-gg.editAll('131842', gg.TYPE_DWORD)
-gg.clearResults()
-gg.setRanges(gg.REGION_C_ALLOC)
-gg.searchNumber('131586;131842', gg.TYPE_DWORD)
-gg.refineNumber('131586', gg.TYPE_DWORD)
-gg.getResults(55555)
-gg.editAll('131842', gg.TYPE_DWORD)
-gg.clearResults()
-gg.setRanges(gg.REGION_C_ALLOC)
-gg.searchNumber('70368744177664;288232579469934592', gg.TYPE_QWORD)
-gg.refineNumber('70368744177664', gg.TYPE_QWORD)
-gg.getResults(gg.getResultCount())
-gg.editAll('288232579469934592', gg.TYPE_QWORD)
-gg.clearResults()
-gg.setRanges(gg.REGION_C_ALLOC)
-gg.searchNumber('578351706144768;564058054983680', gg.TYPE_QWORD)
-gg.refineNumber('578351706144768', gg.TYPE_QWORD)
-gg.getResults(gg.getResultCount())
-gg.editAll('288232579469934592', gg.TYPE_QWORD)
-gg.clearResults()
-gg.setRanges(gg.REGION_C_ALLOC)
-gg.searchNumber('582749752655872;620137442967552', gg.TYPE_QWORD)
-gg.refineNumber('582749752655872', gg.TYPE_QWORD)
-gg.getResults(gg.getResultCount())
-gg.editAll('288232579469934592', gg.TYPE_QWORD)
-gg.clearResults()
-gg.setRanges(gg.REGION_C_ALLOC)
-gg.searchNumber('17,592,186,044,416;582749752655872', gg.TYPE_QWORD)
-gg.refineNumber('17,592,186,044,416', gg.TYPE_QWORD)
-gg.getResults(gg.getResultCount())
-gg.editAll('566257078239232', gg.TYPE_QWORD)
-gg.clearResults()
-gg.searchNumber('577252194516992;288232579469934592', gg.TYPE_QWORD)
-gg.refineNumber('577252194516992', gg.TYPE_QWORD)
-gg.getResults(gg.getResultCount())
-gg.editAll('288232579469934592', gg.TYPE_QWORD)
-gg.clearResults()
-gg.searchNumber('578351706144768;578351706144768', gg.TYPE_QWORD)
-gg.refineNumber('578351706144768', gg.TYPE_QWORD)
-gg.getResults(gg.getResultCount())
-gg.editAll('288232579469934592', gg.TYPE_QWORD)
-gg.clearResults()
-gg.setRanges(gg.REGION_C_ALLOC)
-gg.searchNumber('196610;131076', gg.TYPE_DWORD)
-gg.refineNumber('196610', gg.TYPE_DWORD)
-gg.getResults(gg.getResultCount())
-gg.editAll('131842', gg.TYPE_DWORD)
-gg.clearResults()
-gg.setRanges(gg.REGION_C_ALLOC)
-gg.searchNumber('331107;196608', gg.TYPE_DWORD)
-gg.refineNumber('196608', gg.TYPE_DWORD)
-gg.getResults(gg.getResultCount())
-gg.editAll('131842', gg.TYPE_DWORD)
-gg.clearResults()
-gg.setRanges(gg.REGION_C_ALLOC)
-gg.searchNumber('262144;196611', gg.TYPE_DWORD)
-gg.refineNumber('262144', gg.TYPE_DWORD)
-gg.getResults(gg.getResultCount())
-gg.editAll('131842', gg.TYPE_DWORD)
-gg.clearResults()
-gg.setRanges(gg.REGION_C_ALLOC)
-gg.searchNumber('852002;851986', gg.TYPE_DWORD)
-gg.refineNumber('851986', gg.TYPE_DWORD)
-gg.getResults(gg.getResultCount())
-gg.editAll('131842', gg.TYPE_DWORD)
-gg.clearResults()
-gg.setRanges(gg.REGION_C_ALLOC)
-gg.searchNumber('131075;131074', gg.TYPE_DWORD)
-gg.refineNumber('131074', gg.TYPE_DWORD)
-gg.getResults(gg.getResultCount())
-gg.editAll('131842', gg.TYPE_DWORD)
-gg.clearResults()
-gg.alert("تم تفعيل الحماية")
-end
+
 function HSHOT100()
 gg.setRanges(gg.REGION_ANONYMOUS)
 gg.searchNumber("9.201618;30.5;25", gg.TYPE_FLOAT, false, gg.SIGN_EQUAL, 0, -1)
